@@ -3,29 +3,12 @@ import { Link } from 'react-router-dom';
 import { FiSearch } from 'react-icons/fi';
 
 import './styles.css';
-import logo from '../../assets/logo.svg';
-import userImg from '../../assets/user-img.svg';
+
+import Header from '../../components/Header';
 
 const Market = () => (
   <div>
-    <header>
-      <div className='logo-area'>
-        <div id='logo'>
-          <img src={logo} alt='Ecoleta' />
-          <p>SOK</p>
-        </div>
-        <div id='search'>
-          <input type='text' />
-          <span className='search-icon'>
-            <FiSearch />
-          </span>
-        </div>
-      </div>
-      <div className='user-area'>
-        <p>nome do usuário</p>
-        <img src={userImg} alt='aaaa' />
-      </div>
-    </header>
+    <Header></Header>
     <div id='main'>
       <section id='container' className='center'>
         <div className='item'>lorem</div>
@@ -90,7 +73,7 @@ const Market = () => (
                 </div>
               </div>
             </div>
-            <Link to='/table' className='btn btn-primary btn-custom'>
+            <Link to='/research' className='btn btn-primary btn-custom'>
               Procurar
               <span className=''>
                 <FiSearch></FiSearch>
