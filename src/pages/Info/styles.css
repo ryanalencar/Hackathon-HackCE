@@ -1,0 +1,98 @@
+header {
+  margin-left: 50px;
+}
+
+#card {
+  margin: 0 auto;
+  width: 1023px;
+  height: 730px;
+  background: #fff;
+  border: 1px solid #E6E6F0;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+#card #card-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+  color: #32264D;
+}
+
+#card .form {
+  flex-direction: column;
+}
+
+#card .form {
+  flex-direction: column;
+}
+
+#card .form input {
+  background: #FAFAFC;
+  /* Back / Lines in white */
+  border: 1px solid #E6E6F0;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 100%;
+  height: 55px;
+}
+
+#card .form label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 34px;
+  color: #9C98A6;
+}
+
+#card #card-footer button {
+  background: #1CB3C8;
+  border-radius: 8px;
+  border: 0;
+  width: 233px;
+  height: 56px;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+#card #card-footer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#card #card-footer .alert2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  color: #1CB3C8;
+  font-size: 15px;
+}
+
+#card #card-footer .alert2 a {
+  text-decoration: none;
+  color: #1CB3C8;
+}
+
+#card #card-footer button:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+@media(max-width: 900px) {
+  #logo {
+    margin: 0 auto;
+  }
+  #card {
+    width: 450px;
+  }
+}
