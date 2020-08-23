@@ -68,7 +68,7 @@ const Research = () => (
         </table>
         <hr />
         <span className='mt-5'>
-          <Link to='/'>
+          <Link to='/requisitos'>
             <FiArrowRight /> Requisitos
           </Link>
         </span>

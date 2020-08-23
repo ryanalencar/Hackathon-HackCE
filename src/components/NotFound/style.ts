@@ -3,8 +3,8 @@ import styled, { keyframes } from 'styled-components';
 export const Container = styled.body`
   height: 100%;
   width: 100%;
-  background-color: #f0f0f0;
-  color: black;
+  // background-color: #f0f0f0;
+  color: #fff;
   font-size: 100%;
   line-height: 1.5;
   font-family: 'Roboto', sans-serif;
@@ -12,7 +12,7 @@ export const Container = styled.body`
 `;
 
 export const Button = styled.button`
-  background-color: #1a2f3a;
+  background-color: #1cb3c8;
   font-weight: 300;
   color: white;
   font-size: 1.2em;
