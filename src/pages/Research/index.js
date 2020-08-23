@@ -1,6 +1,10 @@
 import React from 'react';
+import { FiArrowRight } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
 import Header from '../../components/Header';
+
+import './styles.css';
 
 const Research = () => (
   <div>
@@ -62,6 +66,15 @@ const Research = () => (
             </tr>
           </tbody>
         </table>
+        <hr />
+        <span className='mt-5'>
+          <Link to='/'>
+            <FiArrowRight /> Requisitos
+          </Link>
+        </span>
+        <div className='whitespace'></div>
+        <div className='whitespace'></div>
+        <div className='whitespace'></div>
       </div>
     </div>
   </div>
